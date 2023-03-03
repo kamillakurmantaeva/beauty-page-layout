@@ -285,4 +285,210 @@ h6 {
 .section-main__armchair > img {
   width: 584px;
   height: 584px;
+}
+
+.section-second {
+  height: 954px;
+  display: flex;
+  justify-content: center;
+  background: #efefef;
+}
+.section-second__title {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-second__title > h2 {
+  width: 320px;
+  height: 29px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.section-second__goods {
+  margin-top: 16.45px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-second__goods .product-card {
+  width: 255px;
+  height: 363px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+.section-second__goods .product-card > img {
+  margin-top: 25px;
+  width: 125px;
+  height: 166px;
+}
+.section-second__goods .product-card__description {
+  margin-top: 20px;
+  width: 195px;
+  height: 33px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.section-second__goods .product-card__price {
+  margin-top: 20px;
+  width: 80px;
+  height: 19px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.section-second__goods .product-card > button {
+  margin-top: 20px;
+  width: 130px;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: #66c05d;
+  border-radius: 30px;
+}
+.section-second__goods .product-card > button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #66c05d;
+}
+.section-second__blocks {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-second__block {
+  width: 540px;
+  height: 212px;
+  display: flex;
+  align-items: center;
+  background: #66c05d;
+}
+.section-second__block .subscribe {
+  margin-left: 40px;
+}
+.section-second__block .subscribe > h3 {
+  width: 250px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.section-second__block .subscribe > p {
+  margin-top: 25px;
+  width: 231px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.section-second__block .subscribe > input {
+  margin-top: 25px;
+  padding-left: 25px;
+  width: 225px;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.section-second__block .subscribe > input::-moz-placeholder {
+  width: 96px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #c4c4c4;
+}
+.section-second__block .subscribe > input::placeholder {
+  width: 96px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #c4c4c4;
+}
+.section-second__block > img {
+  margin-left: 65px;
+  width: 140px;
+  height: 140px;
+}
+.section-second__block .our-shops {
+  margin-left: 40px;
+}
+.section-second__block .our-shops > h3 {
+  width: 250px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.section-second__block .our-shops > p {
+  margin-top: 25px;
+  width: 141px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.section-second__block .our-shops > button {
+  box-sizing: border-box;
+  margin-top: 25px;
+  width: 170px;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #66c05d;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+.section-second__block .our-shops > button:hover {
+  color: #000000;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

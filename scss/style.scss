@@ -246,3 +246,242 @@
     }
   }
 }
+
+.section-second {
+  height: 954px;
+  display: flex;
+  justify-content: center;
+  background: #efefef;
+
+  &__title {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > h2 {
+      width: 320px;
+      height: 29px;
+
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: #000000;
+    }
+  }
+
+  &__goods {
+    margin-top: 16.45px;
+    display: flex;
+    justify-content: space-between;
+
+    .product-card {
+      width: 255px;
+      height: 363px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffffff;
+
+      > img {
+        margin-top: 25px;
+        width: 125px;
+        height: 166px;
+      }
+
+      &__description {
+        margin-top: 20px;
+        width: 195px;
+        height: 33px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #333333;
+      }
+
+      &__price {
+        margin-top: 20px;
+        width: 80px;
+        height: 19px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+      }
+
+      > button {
+        margin-top: 20px;
+        width: 130px;
+        height: 35px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #ffffff;
+        background: #66c05d;
+        border-radius: 30px;
+
+        &:hover {
+          color: #000000;
+          background-color: #ffffff;
+          border: 2px solid #66c05d;
+        }
+      }
+    }
+  }
+
+  &__blocks {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block {
+    width: 540px;
+    height: 212px;
+    display: flex;
+    align-items: center;
+    background: #66c05d;
+
+    .subscribe {
+      margin-left: 40px;
+
+      > h3 {
+        width: 250px;
+        height: 17px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #ffffff;
+      }
+
+      > p {
+        margin-top: 25px;
+        width: 231px;
+        height: 40px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #ffffff;
+      }
+
+      > input {
+        margin-top: 25px;
+        padding-left: 25px;
+        width: 225px;
+        height: 35px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        background: #ffffff;
+        border-radius: 30px;
+
+        &::placeholder {
+          width: 96px;
+          height: 17px;
+
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+
+          color: #c4c4c4;
+        }
+      }
+    }
+
+    > img {
+      margin-left: 65px;
+      width: 140px;
+      height: 140px;
+    }
+
+    .our-shops {
+      margin-left: 40px;
+
+      > h3 {
+        width: 250px;
+        height: 17px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #ffffff;
+      }
+
+      > p {
+        margin-top: 25px;
+        width: 141px;
+        height: 40px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #ffffff;
+      }
+
+      > button {
+        box-sizing: border-box;
+        margin-top: 25px;
+        width: 170px;
+        height: 35px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #ffffff;
+        background: #66c05d;
+        border: 2px solid #ffffff;
+        border-radius: 30px;
+
+        &:hover {
+          color: #000000;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}
