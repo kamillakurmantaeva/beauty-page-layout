@@ -491,4 +491,103 @@ h6 {
 .section-second__block .our-shops > button:hover {
   color: #000000;
   background-color: #ffffff;
+}
+
+.footer__contacts {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+.footer__contacts-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social {
+  width: 236px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social > div {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 2px solid #66c05d;
+  border-radius: 50%;
+}
+.footer__social > div:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.footer__address {
+  width: 227px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.footer__call {
+  display: flex;
+  align-items: center;
+}
+.footer__call > p {
+  width: 127px;
+  height: 19px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer__call > button {
+  margin-left: 40px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  background: #ffffff;
+  border: 2px solid #66c05d;
+  border-radius: 40px;
+}
+.footer__call > button:hover {
+  color: #ffffff;
+  background-color: #66c05d;
+}
+.footer__bottom {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  background: #efefef;
+}
+.footer__bottom-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__bottom-wrap > p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+.footer__bottom-wrap > p:last-child:hover {
+  opacity: 0.8;
+  color: #000000;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

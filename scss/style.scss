@@ -485,3 +485,125 @@
     }
   }
 }
+
+.footer {
+  &__contacts {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+  }
+
+  &__contacts-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__social {
+    width: 236px;
+    display: flex;
+    justify-content: space-between;
+
+    > div {
+      box-sizing: border-box;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: #ffffff;
+      border: 2px solid #66c05d;
+      border-radius: 50%;
+
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__address {
+    width: 227px;
+    height: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+  }
+
+  &__call {
+    display: flex;
+    align-items: center;
+
+    > p {
+      width: 127px;
+      height: 19px;
+
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #000000;
+    }
+
+    > button {
+      margin-left: 40px;
+      box-sizing: border-box;
+      width: 170px;
+      height: 40px;
+
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #000000;
+      background: #ffffff;
+      border: 2px solid #66c05d;
+      border-radius: 40px;
+
+      &:hover {
+        color: #ffffff;
+        background-color: #66c05d;
+      }
+    }
+  }
+
+  &__bottom {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    background: #efefef;
+  }
+
+  &__bottom-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > p {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+
+      color: #828282;
+
+      &:last-child:hover {
+        opacity: 0.8;
+        color: #000000;
+        cursor: pointer;
+      }
+    }
+  }
+}
